@@ -25,6 +25,11 @@ nuevoArray = tecnologias.filter(tech => tech === 'NodeJS')
 
 //Filter - crea un array en base a una condicion
 //const resultado = tecnologias.filter(tech => tech !== 'NodeJS')
-const resultado = numeros.filter(numeros => numeros !== 1)
+//const resultado = numeros.filter(numeros => numeros !== 1)
+//console.log(resultado)
 
-console.log(resultado)
+tecnologias.forEach((tech, index) => console.log(index))
+
+const arrayMap = tecnologias.map(tech => tech)
+
+console.log(arrayMap)
